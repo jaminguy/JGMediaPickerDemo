@@ -1,0 +1,3 @@
+[submodule "JGMediaPicker"]
+	path = JGMediaPicker
+	url = git@github.com:jaminguy/JGMediaPicker.git

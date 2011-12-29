@@ -15,6 +15,24 @@
 		ED4E011614AD2DC50006E9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E011514AD2DC50006E9F5 /* AppDelegate.m */; };
 		ED4E011914AD2DC50006E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E011814AD2DC50006E9F5 /* ViewController.m */; };
 		ED4E011C14AD2DC50006E9F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4E011A14AD2DC50006E9F5 /* ViewController.xib */; };
+		ED4E013D14AD2E000006E9F5 /* JGAlbumTrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E012514AD2E000006E9F5 /* JGAlbumTrackTableViewCell.m */; };
+		ED4E013E14AD2E000006E9F5 /* JGAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E012714AD2E000006E9F5 /* JGAlbumViewController.m */; };
+		ED4E013F14AD2E000006E9F5 /* JGMediaPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E012914AD2E000006E9F5 /* JGMediaPickerController.m */; };
+		ED4E014014AD2E000006E9F5 /* JGMediaQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E012B14AD2E000006E9F5 /* JGMediaQueryViewController.m */; };
+		ED4E014114AD2E000006E9F5 /* MPMediaItem+JGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E012D14AD2E000006E9F5 /* MPMediaItem+JGExtensions.m */; };
+		ED4E014214AD2E000006E9F5 /* MPMediaItemCollection+JGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E012F14AD2E000006E9F5 /* MPMediaItemCollection+JGExtensions.m */; };
+		ED4E014314AD2E000006E9F5 /* AlbumArtPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013114AD2E000006E9F5 /* AlbumArtPlaceholder.png */; };
+		ED4E014414AD2E000006E9F5 /* AlbumArtPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013214AD2E000006E9F5 /* AlbumArtPlaceholder@2x.png */; };
+		ED4E014514AD2E000006E9F5 /* AlbumArtPlaceholderLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013314AD2E000006E9F5 /* AlbumArtPlaceholderLarge.png */; };
+		ED4E014614AD2E000006E9F5 /* AlbumArtPlaceholderLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013414AD2E000006E9F5 /* AlbumArtPlaceholderLarge@2x.png */; };
+		ED4E014714AD2E000006E9F5 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013514AD2E000006E9F5 /* first.png */; };
+		ED4E014814AD2E000006E9F5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013614AD2E000006E9F5 /* first@2x.png */; };
+		ED4E014914AD2E000006E9F5 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013714AD2E000006E9F5 /* second.png */; };
+		ED4E014A14AD2E000006E9F5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013814AD2E000006E9F5 /* second@2x.png */; };
+		ED4E014B14AD2E000006E9F5 /* JGAlbumTrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013A14AD2E000006E9F5 /* JGAlbumTrackTableViewCell.xib */; };
+		ED4E014C14AD2E000006E9F5 /* JGAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013B14AD2E000006E9F5 /* JGAlbumViewController.xib */; };
+		ED4E014D14AD2E000006E9F5 /* JGMediaQueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4E013C14AD2E000006E9F5 /* JGMediaQueryViewController.xib */; };
+		ED4E014F14AD2E4B0006E9F5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4E014E14AD2E4B0006E9F5 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +40,39 @@
 		ED4E010514AD2DC40006E9F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED4E010714AD2DC40006E9F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED4E010914AD2DC50006E9F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ED4E010D14AD2DC50006E9F5 /* JGMediaPickerDemo-Info.plist */ = {isa = PBXFileReference; path = "JGMediaPickerDemo-Info.plist"; sourceTree = "<group>"; };
+		ED4E010D14AD2DC50006E9F5 /* JGMediaPickerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGMediaPickerDemo-Info.plist"; sourceTree = "<group>"; };
 		ED4E010F14AD2DC50006E9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED4E011114AD2DC50006E9F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ED4E011314AD2DC50006E9F5 /* JGMediaPickerDemo-Prefix.pch */ = {isa = PBXFileReference; path = "JGMediaPickerDemo-Prefix.pch"; sourceTree = "<group>"; };
-		ED4E011414AD2DC50006E9F5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED4E011314AD2DC50006E9F5 /* JGMediaPickerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JGMediaPickerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ED4E011414AD2DC50006E9F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED4E011514AD2DC50006E9F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED4E011714AD2DC50006E9F5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		ED4E011714AD2DC50006E9F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ED4E011814AD2DC50006E9F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED4E011B14AD2DC50006E9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		ED4E012414AD2E000006E9F5 /* JGAlbumTrackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAlbumTrackTableViewCell.h; sourceTree = "<group>"; };
+		ED4E012514AD2E000006E9F5 /* JGAlbumTrackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAlbumTrackTableViewCell.m; sourceTree = "<group>"; };
+		ED4E012614AD2E000006E9F5 /* JGAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAlbumViewController.h; sourceTree = "<group>"; };
+		ED4E012714AD2E000006E9F5 /* JGAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAlbumViewController.m; sourceTree = "<group>"; };
+		ED4E012814AD2E000006E9F5 /* JGMediaPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMediaPickerController.h; sourceTree = "<group>"; };
+		ED4E012914AD2E000006E9F5 /* JGMediaPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMediaPickerController.m; sourceTree = "<group>"; };
+		ED4E012A14AD2E000006E9F5 /* JGMediaQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMediaQueryViewController.h; sourceTree = "<group>"; };
+		ED4E012B14AD2E000006E9F5 /* JGMediaQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMediaQueryViewController.m; sourceTree = "<group>"; };
+		ED4E012C14AD2E000006E9F5 /* MPMediaItem+JGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMediaItem+JGExtensions.h"; sourceTree = "<group>"; };
+		ED4E012D14AD2E000006E9F5 /* MPMediaItem+JGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPMediaItem+JGExtensions.m"; sourceTree = "<group>"; };
+		ED4E012E14AD2E000006E9F5 /* MPMediaItemCollection+JGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMediaItemCollection+JGExtensions.h"; sourceTree = "<group>"; };
+		ED4E012F14AD2E000006E9F5 /* MPMediaItemCollection+JGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPMediaItemCollection+JGExtensions.m"; sourceTree = "<group>"; };
+		ED4E013114AD2E000006E9F5 /* AlbumArtPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlbumArtPlaceholder.png; sourceTree = "<group>"; };
+		ED4E013214AD2E000006E9F5 /* AlbumArtPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumArtPlaceholder@2x.png"; sourceTree = "<group>"; };
+		ED4E013314AD2E000006E9F5 /* AlbumArtPlaceholderLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlbumArtPlaceholderLarge.png; sourceTree = "<group>"; };
+		ED4E013414AD2E000006E9F5 /* AlbumArtPlaceholderLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumArtPlaceholderLarge@2x.png"; sourceTree = "<group>"; };
+		ED4E013514AD2E000006E9F5 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		ED4E013614AD2E000006E9F5 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		ED4E013714AD2E000006E9F5 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		ED4E013814AD2E000006E9F5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		ED4E013A14AD2E000006E9F5 /* JGAlbumTrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JGAlbumTrackTableViewCell.xib; sourceTree = "<group>"; };
+		ED4E013B14AD2E000006E9F5 /* JGAlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JGAlbumViewController.xib; sourceTree = "<group>"; };
+		ED4E013C14AD2E000006E9F5 /* JGMediaQueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JGMediaQueryViewController.xib; sourceTree = "<group>"; };
+		ED4E014E14AD2E4B0006E9F5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4E014F14AD2E4B0006E9F5 /* MediaPlayer.framework in Frameworks */,
 				ED4E010614AD2DC40006E9F5 /* UIKit.framework in Frameworks */,
 				ED4E010814AD2DC40006E9F5 /* Foundation.framework in Frameworks */,
 				ED4E010A14AD2DC50006E9F5 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +110,7 @@
 		ED4E010414AD2DC40006E9F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED4E014E14AD2E4B0006E9F5 /* MediaPlayer.framework */,
 				ED4E010514AD2DC40006E9F5 /* UIKit.framework */,
 				ED4E010714AD2DC40006E9F5 /* Foundation.framework */,
 				ED4E010914AD2DC50006E9F5 /* CoreGraphics.framework */,
@@ -82,6 +126,7 @@
 				ED4E011714AD2DC50006E9F5 /* ViewController.h */,
 				ED4E011814AD2DC50006E9F5 /* ViewController.m */,
 				ED4E011A14AD2DC50006E9F5 /* ViewController.xib */,
+				ED4E012214AD2E000006E9F5 /* JGMediaPicker */,
 				ED4E010C14AD2DC50006E9F5 /* Supporting Files */,
 			);
 			path = JGMediaPickerDemo;
@@ -96,6 +141,60 @@
 				ED4E011314AD2DC50006E9F5 /* JGMediaPickerDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED4E012214AD2E000006E9F5 /* JGMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E012314AD2E000006E9F5 /* Classes */,
+				ED4E013014AD2E000006E9F5 /* Images */,
+				ED4E013914AD2E000006E9F5 /* Nibs */,
+			);
+			path = JGMediaPicker;
+			sourceTree = SOURCE_ROOT;
+		};
+		ED4E012314AD2E000006E9F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E012414AD2E000006E9F5 /* JGAlbumTrackTableViewCell.h */,
+				ED4E012514AD2E000006E9F5 /* JGAlbumTrackTableViewCell.m */,
+				ED4E012614AD2E000006E9F5 /* JGAlbumViewController.h */,
+				ED4E012714AD2E000006E9F5 /* JGAlbumViewController.m */,
+				ED4E012814AD2E000006E9F5 /* JGMediaPickerController.h */,
+				ED4E012914AD2E000006E9F5 /* JGMediaPickerController.m */,
+				ED4E012A14AD2E000006E9F5 /* JGMediaQueryViewController.h */,
+				ED4E012B14AD2E000006E9F5 /* JGMediaQueryViewController.m */,
+				ED4E012C14AD2E000006E9F5 /* MPMediaItem+JGExtensions.h */,
+				ED4E012D14AD2E000006E9F5 /* MPMediaItem+JGExtensions.m */,
+				ED4E012E14AD2E000006E9F5 /* MPMediaItemCollection+JGExtensions.h */,
+				ED4E012F14AD2E000006E9F5 /* MPMediaItemCollection+JGExtensions.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ED4E013014AD2E000006E9F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E013114AD2E000006E9F5 /* AlbumArtPlaceholder.png */,
+				ED4E013214AD2E000006E9F5 /* AlbumArtPlaceholder@2x.png */,
+				ED4E013314AD2E000006E9F5 /* AlbumArtPlaceholderLarge.png */,
+				ED4E013414AD2E000006E9F5 /* AlbumArtPlaceholderLarge@2x.png */,
+				ED4E013514AD2E000006E9F5 /* first.png */,
+				ED4E013614AD2E000006E9F5 /* first@2x.png */,
+				ED4E013714AD2E000006E9F5 /* second.png */,
+				ED4E013814AD2E000006E9F5 /* second@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ED4E013914AD2E000006E9F5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E013A14AD2E000006E9F5 /* JGAlbumTrackTableViewCell.xib */,
+				ED4E013B14AD2E000006E9F5 /* JGAlbumViewController.xib */,
+				ED4E013C14AD2E000006E9F5 /* JGMediaQueryViewController.xib */,
+			);
+			path = Nibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +249,17 @@
 			files = (
 				ED4E011014AD2DC50006E9F5 /* InfoPlist.strings in Resources */,
 				ED4E011C14AD2DC50006E9F5 /* ViewController.xib in Resources */,
+				ED4E014314AD2E000006E9F5 /* AlbumArtPlaceholder.png in Resources */,
+				ED4E014414AD2E000006E9F5 /* AlbumArtPlaceholder@2x.png in Resources */,
+				ED4E014514AD2E000006E9F5 /* AlbumArtPlaceholderLarge.png in Resources */,
+				ED4E014614AD2E000006E9F5 /* AlbumArtPlaceholderLarge@2x.png in Resources */,
+				ED4E014714AD2E000006E9F5 /* first.png in Resources */,
+				ED4E014814AD2E000006E9F5 /* first@2x.png in Resources */,
+				ED4E014914AD2E000006E9F5 /* second.png in Resources */,
+				ED4E014A14AD2E000006E9F5 /* second@2x.png in Resources */,
+				ED4E014B14AD2E000006E9F5 /* JGAlbumTrackTableViewCell.xib in Resources */,
+				ED4E014C14AD2E000006E9F5 /* JGAlbumViewController.xib in Resources */,
+				ED4E014D14AD2E000006E9F5 /* JGMediaQueryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +273,12 @@
 				ED4E011214AD2DC50006E9F5 /* main.m in Sources */,
 				ED4E011614AD2DC50006E9F5 /* AppDelegate.m in Sources */,
 				ED4E011914AD2DC50006E9F5 /* ViewController.m in Sources */,
+				ED4E013D14AD2E000006E9F5 /* JGAlbumTrackTableViewCell.m in Sources */,
+				ED4E013E14AD2E000006E9F5 /* JGAlbumViewController.m in Sources */,
+				ED4E013F14AD2E000006E9F5 /* JGMediaPickerController.m in Sources */,
+				ED4E014014AD2E000006E9F5 /* JGMediaQueryViewController.m in Sources */,
+				ED4E014114AD2E000006E9F5 /* MPMediaItem+JGExtensions.m in Sources */,
+				ED4E014214AD2E000006E9F5 /* MPMediaItemCollection+JGExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
