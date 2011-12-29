@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4E010614AD2DC40006E9F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4E010514AD2DC40006E9F5 /* UIKit.framework */; };
+		ED4E010814AD2DC40006E9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4E010714AD2DC40006E9F5 /* Foundation.framework */; };
+		ED4E010A14AD2DC50006E9F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4E010914AD2DC50006E9F5 /* CoreGraphics.framework */; };
+		ED4E011014AD2DC50006E9F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED4E010E14AD2DC50006E9F5 /* InfoPlist.strings */; };
+		ED4E011214AD2DC50006E9F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E011114AD2DC50006E9F5 /* main.m */; };
+		ED4E011614AD2DC50006E9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E011514AD2DC50006E9F5 /* AppDelegate.m */; };
+		ED4E011914AD2DC50006E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E011814AD2DC50006E9F5 /* ViewController.m */; };
+		ED4E011C14AD2DC50006E9F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4E011A14AD2DC50006E9F5 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED4E010114AD2DC40006E9F5 /* JGMediaPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGMediaPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4E010514AD2DC40006E9F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED4E010714AD2DC40006E9F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED4E010914AD2DC50006E9F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED4E010D14AD2DC50006E9F5 /* JGMediaPickerDemo-Info.plist */ = {isa = PBXFileReference; path = "JGMediaPickerDemo-Info.plist"; sourceTree = "<group>"; };
+		ED4E010F14AD2DC50006E9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED4E011114AD2DC50006E9F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED4E011314AD2DC50006E9F5 /* JGMediaPickerDemo-Prefix.pch */ = {isa = PBXFileReference; path = "JGMediaPickerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ED4E011414AD2DC50006E9F5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED4E011514AD2DC50006E9F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED4E011714AD2DC50006E9F5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		ED4E011814AD2DC50006E9F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED4E011B14AD2DC50006E9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4E00FE14AD2DC40006E9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4E010614AD2DC40006E9F5 /* UIKit.framework in Frameworks */,
+				ED4E010814AD2DC40006E9F5 /* Foundation.framework in Frameworks */,
+				ED4E010A14AD2DC50006E9F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4E00F614AD2DC40006E9F5 = {
+			isa = PBXGroup;
+			children = (
+				ED4E010B14AD2DC50006E9F5 /* JGMediaPickerDemo */,
+				ED4E010414AD2DC40006E9F5 /* Frameworks */,
+				ED4E010214AD2DC40006E9F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4E010214AD2DC40006E9F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E010114AD2DC40006E9F5 /* JGMediaPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4E010414AD2DC40006E9F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E010514AD2DC40006E9F5 /* UIKit.framework */,
+				ED4E010714AD2DC40006E9F5 /* Foundation.framework */,
+				ED4E010914AD2DC50006E9F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED4E010B14AD2DC50006E9F5 /* JGMediaPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E011414AD2DC50006E9F5 /* AppDelegate.h */,
+				ED4E011514AD2DC50006E9F5 /* AppDelegate.m */,
+				ED4E011714AD2DC50006E9F5 /* ViewController.h */,
+				ED4E011814AD2DC50006E9F5 /* ViewController.m */,
+				ED4E011A14AD2DC50006E9F5 /* ViewController.xib */,
+				ED4E010C14AD2DC50006E9F5 /* Supporting Files */,
+			);
+			path = JGMediaPickerDemo;
+			sourceTree = "<group>";
+		};
+		ED4E010C14AD2DC50006E9F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E010D14AD2DC50006E9F5 /* JGMediaPickerDemo-Info.plist */,
+				ED4E010E14AD2DC50006E9F5 /* InfoPlist.strings */,
+				ED4E011114AD2DC50006E9F5 /* main.m */,
+				ED4E011314AD2DC50006E9F5 /* JGMediaPickerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4E010014AD2DC40006E9F5 /* JGMediaPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4E011F14AD2DC50006E9F5 /* Build configuration list for PBXNativeTarget "JGMediaPickerDemo" */;
+			buildPhases = (
+				ED4E00FD14AD2DC40006E9F5 /* Sources */,
+				ED4E00FE14AD2DC40006E9F5 /* Frameworks */,
+				ED4E00FF14AD2DC40006E9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGMediaPickerDemo;
+			productName = JGMediaPickerDemo;
+			productReference = ED4E010114AD2DC40006E9F5 /* JGMediaPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4E00F814AD2DC40006E9F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ED4E00FB14AD2DC40006E9F5 /* Build configuration list for PBXProject "JGMediaPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED4E00F614AD2DC40006E9F5;
+			productRefGroup = ED4E010214AD2DC40006E9F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4E010014AD2DC40006E9F5 /* JGMediaPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4E00FF14AD2DC40006E9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4E011014AD2DC50006E9F5 /* InfoPlist.strings in Resources */,
+				ED4E011C14AD2DC50006E9F5 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4E00FD14AD2DC40006E9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4E011214AD2DC50006E9F5 /* main.m in Sources */,
+				ED4E011614AD2DC50006E9F5 /* AppDelegate.m in Sources */,
+				ED4E011914AD2DC50006E9F5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED4E010E14AD2DC50006E9F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4E010F14AD2DC50006E9F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED4E011A14AD2DC50006E9F5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4E011B14AD2DC50006E9F5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4E011D14AD2DC50006E9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED4E011E14AD2DC50006E9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4E012014AD2DC50006E9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGMediaPickerDemo/JGMediaPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "JGMediaPickerDemo/JGMediaPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED4E012114AD2DC50006E9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGMediaPickerDemo/JGMediaPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "JGMediaPickerDemo/JGMediaPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4E00FB14AD2DC40006E9F5 /* Build configuration list for PBXProject "JGMediaPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4E011D14AD2DC50006E9F5 /* Debug */,
+				ED4E011E14AD2DC50006E9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4E011F14AD2DC50006E9F5 /* Build configuration list for PBXNativeTarget "JGMediaPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4E012014AD2DC50006E9F5 /* Debug */,
+				ED4E012114AD2DC50006E9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4E00F814AD2DC40006E9F5 /* Project object */;
+}
