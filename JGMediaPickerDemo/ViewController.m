@@ -70,9 +70,11 @@
 }
 
 - (IBAction)showMediaButtonTouchUpInside:(id)sender {
-    self.mediaPickerController = [[[JGMediaPickerController alloc] init] autorelease];
-    self.mediaPickerController.delegate = self;
-    [self presentModalViewController:self.mediaPickerController animated:YES];
+    if(self.mediaPickerController == nil) {
+        self.mediaPickerController = [[[JGMediaPickerController alloc] init] autorelease];
+        self.mediaPickerController.delegate = self;
+    }
+    [self presentModalViewController:self.mediaPickerController.viewController animated:YES];
 }
 
 - (void)jgMediaPicker:(JGMediaPickerController *)mediaPicker didPickMediaItems:(MPMediaItemCollection *)mediaItemCollection selectedItem:(MPMediaItem *)selectedItem {
