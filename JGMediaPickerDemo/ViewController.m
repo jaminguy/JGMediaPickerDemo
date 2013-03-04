@@ -14,7 +14,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic, retain) JGMediaPickerController *mediaPickerController;
+@property (nonatomic, strong) JGMediaPickerController *mediaPickerController;
 
 @end
 
@@ -38,6 +38,7 @@
 
 - (void)viewDidUnload
 {
+    [self setShowMediaPickerButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -71,10 +72,20 @@
 
 - (IBAction)showMediaButtonTouchUpInside:(id)sender {
     if(self.mediaPickerController == nil) {
-        self.mediaPickerController = [[[JGMediaPickerController alloc] init] autorelease];
-        self.mediaPickerController.delegate = self;
+        [self.showMediaPickerButton setTitle:@"Loading..." forState:UIControlStateNormal];
+        self.showMediaPickerButton.enabled = NO;
+        __weak ViewController *weakSelf = self;
+        [JGMediaPickerController jgMediaPickerControllerAsync:^(JGMediaPickerController *jgMediaPickerController) {
+            weakSelf.mediaPickerController = jgMediaPickerController;
+            weakSelf.mediaPickerController.delegate = self;
+            [weakSelf presentModalViewController:self.mediaPickerController.viewController animated:YES];
+            [weakSelf.showMediaPickerButton setTitle:@"Show Media Picker" forState:UIControlStateNormal];
+            weakSelf.showMediaPickerButton.enabled = YES;
+        }];
     }
-    [self presentModalViewController:self.mediaPickerController.viewController animated:YES];
+    else {
+        [self presentModalViewController:self.mediaPickerController.viewController animated:YES];
+    }
 }
 
 - (void)jgMediaPicker:(JGMediaPickerController *)mediaPicker didPickMediaItems:(MPMediaItemCollection *)mediaItemCollection selectedItem:(MPMediaItem *)selectedItem {

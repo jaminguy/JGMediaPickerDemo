@@ -384,6 +384,7 @@
 		ED4E012014AD2DC50006E9F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JGMediaPickerDemo/JGMediaPickerDemo-Prefix.pch";
 				INFOPLIST_FILE = "JGMediaPickerDemo/JGMediaPickerDemo-Info.plist";
@@ -395,6 +396,7 @@
 		ED4E012114AD2DC50006E9F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JGMediaPickerDemo/JGMediaPickerDemo-Prefix.pch";
 				INFOPLIST_FILE = "JGMediaPickerDemo/JGMediaPickerDemo-Info.plist";
